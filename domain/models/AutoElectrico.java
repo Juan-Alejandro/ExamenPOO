@@ -33,7 +33,7 @@ public class AutoElectrico extends Vehiculo{
     
     @Override 
     public String toString(){
-        return super.mostrarInfo() + "\nBateria: " + bateria;
+        return super.mostrarInfo() + "\nBateria: " + bateria +"%";
     }
     
     
